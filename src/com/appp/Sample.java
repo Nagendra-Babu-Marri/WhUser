@@ -2,7 +2,7 @@ package com.appp;
 
 public class Sample {
 
-	private int sid;
+	private Long sid;
 	private String sname;
 	private double smarks;
 	
@@ -18,7 +18,7 @@ public class Sample {
 	public void setSname(String sname) {
 		this.sname = sname;
 	}
-	public Long getSmarks() {
+	public double getSmarks() {
 		return smarks;
 	}
 	public void setSmarks(Long smarks) {

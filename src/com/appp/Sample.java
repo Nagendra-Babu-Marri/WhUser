@@ -1,23 +1,33 @@
 package com.appp;
 
 public class Sample {
+
+	private int sid;
+	private String sname;
+	private double smarks;
 	
-	private Long sno;
-	private String name;
-	public Long getSno() {
-		return sno;
+	public Long getSid() {
+		return sid;
 	}
-	public void setSno(Long sno) {
-		this.sno = sno;
+	public void setSid(Long sid) {
+		this.sid = sid;
 	}
-	public String getName() {
-		return name;
+	public String getSname() {
+		return sname;
 	}
-	public void setName(String name) {
-		this.name = name;
+	public void setSname(String sname) {
+		this.sname = sname;
+	}
+	public Long getSmarks() {
+		return smarks;
+	}
+	public void setSmarks(Long smarks) {
+		this.smarks = smarks;
 	}
 	@Override
 	public String toString() {
-		return "Sample [sno=" + sno + ", name=" + name + "]";
+		return "Sample [sid=" + sid + ", sname=" + sname + ", smarks="+ smarks +"]";
 	}
+	
+ 
 }
